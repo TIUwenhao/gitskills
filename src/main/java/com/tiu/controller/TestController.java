@@ -45,6 +45,11 @@ public class TestController {
 		return "success";
 	}
 	
+	@RequestMapping("/AfterOperateMaster")
+	public String AfterOperateMaster(){
+		return "success";
+	}
+	
 	public static void main(String[] args){
 		SpringApplication.run(TestController.class, args);
 	}
