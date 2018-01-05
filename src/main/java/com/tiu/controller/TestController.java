@@ -40,6 +40,12 @@ public class TestController {
 		return "success";
 	}
 	
+	@RequestMapping("/testSwtichToMaster")
+	public String testSwtichToMaster(){
+		return "success";
+
+	}
+	
 	public static void main(String[] args){
 		SpringApplication.run(TestController.class, args);
 	}
