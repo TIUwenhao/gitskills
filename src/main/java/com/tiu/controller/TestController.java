@@ -40,6 +40,11 @@ public class TestController {
 		return "success";
 	}
 	
+	@RequestMapping("/testBranch")
+	public String testBranch(){
+		return "success";
+	}
+	
 	public static void main(String[] args){
 		SpringApplication.run(TestController.class, args);
 	}
