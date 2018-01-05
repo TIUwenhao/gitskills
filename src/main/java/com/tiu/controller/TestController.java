@@ -29,12 +29,12 @@ public class TestController {
 		return "Exception";
 	}
 	
-//	@RequestMapping("/testGitCommit")
-//	public String testGitCommit(){
-//		
-//		return "success";
-//	}
-//	public static void main(String[] args){
-//		SpringApplication.run(TestController.class, args);
-//	}
+	@RequestMapping("/testGitCommit")
+	public String testGitCommit(){
+		
+		return "success";
+	}
+	public static void main(String[] args){
+		SpringApplication.run(TestController.class, args);
+	}
 }
