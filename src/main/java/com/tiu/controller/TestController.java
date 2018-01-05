@@ -34,6 +34,12 @@ public class TestController {
 		
 		return "success";
 	}
+	
+	@RequestMapping("/testRemotePush")
+	public String testRemotePush(){
+		return "success";
+	}
+	
 	public static void main(String[] args){
 		SpringApplication.run(TestController.class, args);
 	}
